@@ -6,19 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Implement a sign-up form in HTML with the following six input fields, each with an appropriate label:
 
-Username, a required text input field
-Password, a required password input field
-Email, a required email input field
-Phone Number, an optional telephone input field
-Date of Birth, an optional date-picker input field
-I agree to the TOS, a required checkbox input field
-There should also be a Sign Up button at the bottom of the form. When clicked on (and if all required fields have been filled), the button should submit the form using default browser behavior.
-
-Note that submitting the form in your Browser Output or in the Expected Output will result in a broken page being displayed; this is normal behavior, since these outputs are rendered in iframes.
-
-You only need to write the HTML that would go inside of a document's <body> tag; no need to worry about the <head> tag, the <html> tag, or the <!DOCTYPE> declaration. -->
 
     <!-- Hint 1 All of these inputs can use the input tag, with different type attributes to determine the input type. -->
     <!-- Hint 2 A required boolean attribute can be used for required form inputs -->
@@ -26,7 +14,7 @@ You only need to write the HTML that would go inside of a document's <body> tag;
 
     <!-- *************************** -->
     <!-- SOLUTION 1 -->
-    <!-- <form autocomplete="off">
+    <form autocomplete="off">
       <label for="name">Username: </label>
       <input type="text" id="name" required />
 
@@ -34,7 +22,7 @@ You only need to write the HTML that would go inside of a document's <body> tag;
       <input type="password" id="pass" required />
 
       <label for="email">Email: </label>
-      <input type="email" id="email" />
+      <input type="email" id="email" required />
 
       <label for="tel">Phone Number: </label>
       <input type="tel" id="tel" />
@@ -45,8 +33,8 @@ You only need to write the HTML that would go inside of a document's <body> tag;
       <label for="TOS">I agree to the TOS</label>
       <input type="checkbox" id="TOS" required />
 
-      <button>Sign up</button>
-    </form> -->
+      <button>Sign Up</button>
+    </form>
 
     <!-- *************************** -->
     <!-- SOLUTION 2 -->
